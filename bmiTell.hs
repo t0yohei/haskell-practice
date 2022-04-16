@@ -7,9 +7,7 @@ bmiTell weight height
   | otherwise = "Too match waight"
   where
     bmi = weight / height ^ 2
-    skinny = 18.5
-    normal = 25.0
-    fat = 30.0
+    (skinny, normal, fat) = (18.5, 25.0, 30.0)
 
 -- call sample
 -- bmiTell 65.5 1.75
